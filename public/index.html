@@ -1,1 +1,113 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Burger Heaven</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <header>
+        <h1>Välkommen till BurgerOnline</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Välj birger</h3>
+            <p>Här kan du beställa birgers</p>
+            <div style="display: inline-block;">
+                <h4>Smash birger</h4>
+                <img src="https://bbqlovers.se/wp-content/uploads/2017/04/Smashburgare2-300x251.jpg"
+                    title="Smash birger" style="width: 300px">
+                <ul>
+                    <li>200g kött</li>
+                    <li>2 skivor cheddar</li>
+                    <li>Picklad rödlök</li>
+                    <li>Sallad</li>
+                    <li>Tryffelmajonäs</li>
+                </ul>
+                <dl>
+                    <dt>Tryffelmajonäs</dt>
+                    <dd>Ej laktosfri</dd>
+                </dl>
+            </div>
+            <div style="display: inline-block;">
+                <h4>Dubbel cheese</h4>
+                <img src="https://storage.googleapis.com/orchestra-cafe-7jp1kqsp/uploads/2017/09/varldens-godaste-hamburgare.jpg"
+                    title="Dubbel cheese" style="width: 370px">
+                <ul>
+                    <li>300g kött</li>
+                    <li>4 skivor cheddar</li>
+                </ul>
+            </div>
+            <div style="display: inline-block;">
+                <h4>Halloumi</h4>
+                <img src="https://assets.icanet.se/e_sharpen:80,q_auto,dpr_1.25,w_718,h_718,c_lfill/imagevaultfiles/id_161415/cf_259/halloumiburgare_med_srirachamajonnas_och_soltorkade_tomater.jpg"
+                    title="Halloumi" style="width: 250px">
+                <ul>
+                    <li>Halloumi</li>
+                    <li>Picklad rödlök</li>
+                    <li>Mixad sallad</li>
+                    <li>Srirachamajonäs</li>
+                </ul>
+                <dl>
+                    <dt>Srirachamajonäs</dt>
+                    <dd>Ej laktosfri</dd>
+                </dl>
+            </div>
+        </section>
+        <section>
+            <h3>Information om köparen</h3>
+            <p>Fyll i fälten nedan</p>
+            <form>
+            <p>
+                <label for="namn">Namn</label><br>
+                <input type="text" id="namn" name="fn" required="required" placeholder="För- och efternamn">
+            </p>
+            <p>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="em" required="required" placeholder="E-mail adress">
+            </p>
+            <p>
+                <label for="adress">Adress</label><br>
+                <input type="text" id="adress" name="ad" required="required" placeholder="Gatuadress">
+            </p>
+            <p>
+                <label for="nummer">Husnummer</label><br>
+                <input type="number" id="nummer" name="num" required="required" placeholder="Husnummer">
+            </p>
+            <p>
+                <label for="betalning">Betalningsmetod</label><br>
+                <select id="betalning" name="bet">
+                    <option>Swish</option>
+                    <option>Kort</option>
+                    <option>Klarna</option>
+                    <option>Kontant</option>
+                </select>
+            </p>
+            <p>Välj Kön</p>
+            <p>
+                <input type="radio" id="Man" name="kön" value="Man">
+                <label for="Man">Man</label><br>
+            </p>
+            <p>
+                <input type="radio" id="Kvinna" name="kön" value="Kvinna">
+                <label for="Kvinna">Kvinna</label><br>
+            </p>
+            <p>
+                <input type="radio" id="osäker" name="kön" value="vill inte säga" checked>
+                <label for="osäker">Vill inte säga</label><br>
+            </p>
+        </form>
+        </section>
+        <button type="submit">
+            <img src="https://toppng.com/uploads/preview/best-free-checkmark-check-mark-transparent-background-free-11562873601nxp1ox2tft.png"
+            style="width: 25px">
+            Beställ
+          </button>
+        <footer>
+            <hr>&copy; Burger Heaven EST. 2022
+        </footer>
+    </main>
+</body>
+
+</html>
